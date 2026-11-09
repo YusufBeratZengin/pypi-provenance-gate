@@ -1,0 +1,6 @@
+--index-url https://pypi.org/simple
+# Örnek/fake veri: gerçek paket değil.
+example-attested==1.0.0 \
+    --hash=sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+example-plain==2.1.0 --hash=sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+example-unpinned>=1.0

@@ -1,0 +1,30 @@
+version = 1
+revision = 2
+requires-python = ">=3.11"
+
+[[package]]
+name = "example-attested"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/aa/bb/example_attested-1.0.0.tar.gz", hash = "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", size = 1200 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cc/dd/example_attested-1.0.0-py3-none-any.whl", hash = "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb", size = 1000 },
+]
+
+[[package]]
+name = "example-plain"
+version = "2.1.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ee/ff/example_plain-2.1.0-py3-none-any.whl", hash = "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc", size = 900 },
+]
+
+[[package]]
+name = "example-internal"
+version = "0.1.0"
+source = { editable = "." }
+
+[[package]]
+name = "example-gitdep"
+version = "0.2.0"
+source = { git = "https://example.invalid/example-org/example-gitdep.git?rev=deadbeef" }

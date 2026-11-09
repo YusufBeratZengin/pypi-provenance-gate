@@ -1,0 +1,27 @@
+{
+  "attestation_bundles": [
+    {
+      "attestations": [
+        {
+          "envelope": {
+            "signature": "ZmFrZS1zaWduYXR1cmU=",
+            "statement": "ZmFrZS1zdGF0ZW1lbnQ="
+          },
+          "verification_material": {
+            "certificate": "ZmFrZS1jZXJ0aWZpY2F0ZQ==",
+            "transparency_entries": []
+          },
+          "version": 1
+        }
+      ],
+      "publisher": {
+        "claims": null,
+        "environment": "",
+        "kind": "GitHub",
+        "repository": "example-org/example-project",
+        "workflow": "release.yml"
+      }
+    }
+  ],
+  "version": 1
+}
